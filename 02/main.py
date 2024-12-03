@@ -36,7 +36,7 @@ def count_valid_reports_second_part(reports: list[list[int]]) -> int:
     return valid_count
 
 
-def main():
+def main() -> None:
     reports = [[int(x) for x in line.split()] for line in open("input.txt").readlines()]
     print(
         f"Part 1: {count_valid_reports(reports)}\n"
